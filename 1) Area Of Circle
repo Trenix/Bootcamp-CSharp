@@ -16,7 +16,7 @@ namespace SoloLearn
         static void Main(string[] args)
         {
             const double pi = 3.14;
-            double radius = 10;
+            double radius;
             double answer;
 
             radius = Convert.ToDouble(Console.ReadLine());
