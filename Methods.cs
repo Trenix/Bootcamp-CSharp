@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace SoloLearn
 {
-    class Program
+    class ProgramCancel changes
     {
         static void Main(string[] args)
         {
