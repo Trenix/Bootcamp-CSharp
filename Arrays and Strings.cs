@@ -35,17 +35,21 @@ namespace Code_Coach_Challenge
             {
                 if (x.Contains(letter))
                 {
-                    count += 1;
                     Console.WriteLine(x);
+                }
+                else
+                {
+                    count += 1;
                 }
 
 
             }
 
-            if (count == 0)
+            if (count == words.Length)
                 {
                     Console.WriteLine("No match");
                 }
+            
         }
     }
 }
