@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace SoloLearn
 {
-    class ProgramCancel changes
+    class Program
     {
         static void Main(string[] args)
         {
@@ -22,7 +22,7 @@ namespace SoloLearn
         {
             int pointSum = 0;
             
-            for (int x = levels; x >= 0; --x)
+            for (int x = 1; levels >= x; ++x)
             {
                 pointSum += x;
             }
