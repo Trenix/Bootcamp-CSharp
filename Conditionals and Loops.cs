@@ -14,19 +14,19 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            int number = Convert.ToInt32(Console.ReadLine());
+            int N = Convert.ToInt32(Console.ReadLine());
 
 
-            for (int N = 1; N <= number; N++)
+            for (int x = 1; x <= N; x++)
             {
-                if (N%3 == 0)
+                if (x%3 == 0)
                 {
                     Console.Write("*");
                 }
 
                 else
                 {
-                    Console.Write(N);
+                    Console.Write(x);
                 }
             }
 
