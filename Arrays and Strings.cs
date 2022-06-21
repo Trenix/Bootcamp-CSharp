@@ -39,7 +39,7 @@ namespace Code_Coach_Challenge
                 }
                 else
                 {
-                    count += 1;
+                    ++count;
                 }
 
 
